@@ -1,0 +1,279 @@
+*{
+	font-family:Helvetica, Arial, "DejaVu Sans", "Liberation Sans", Freesans, sans-serif; 	
+	font-size:14px;
+
+}
+
+/* nav chinh */
+.container-main-menu{
+	width:90%;
+	min-height:200px;
+	margin:0 auto;
+}
+
+
+
+
+
+.nav-main{
+	width: 200px;
+	margin-right:50px;
+}
+.nav-main ul{
+	/*background-color:red;*/
+	min-height:30px;
+	min-width:200px;
+	border-top:2px solid red;
+	
+}
+.nav-main li {
+	padding:7px 0 7px 15px;
+	list-style-type:none;
+	position:relative;
+
+	border-bottom:1px solid #CDCCCC;
+}
+/* .nav-main li a:after{
+	content: "\f105";
+	float:right;
+	padding-right:20px;
+	} */
+	.nav-main ul li .menu-arror:before {
+		/* content: "\f105";  */
+	}
+	.nav-main li a{
+		text-decoration:none;
+		color:#232222;
+		
+	}
+	.nav-main li:hover{
+		background-color:red;
+		width:;
+	}
+	.nav-main li a:hover{
+		color:white;
+		padding:12px 14px;
+	}
+	.nav-main li ul{
+		display:none;
+		position: absolute;
+		
+
+		
+	}
+	.nav-main li:hover ul{
+		display:block;
+		background-color:white;
+		top:-28px;	
+		left:170px;
+		
+		
+
+	}
+
+	.nav-main li ul li a:after{
+		content:"";
+	}
+
+	.nav-main li ul{
+		width:250px;
+		height:300px;
+		z-index:1;
+		float:left;
+		top:0;
+	}
+	.nav-main .row{
+		width:500px;
+	}
+
+
+
+	/* thanh timf kieems */
+	.input-group input[type=text]{
+
+		height:2.8rem;
+		background: ;
+		font-size:13px;
+
+		border-radius:10px 0 0 0;
+		border:2px solid #fff;
+	}
+	#i-search-o .btn{
+		width:2rem;
+		/* background-color:red; */
+		border-radius:0 0 15px 0;
+		/*margin-top:0.1rem;*/
+		padding-right:2.5rem;
+		padding-left:1.5rem;
+		/* border:2px solid #5160EC;  */
+
+	}
+
+	#cart-t .btn{
+		height:2.8rem;
+	}
+
+	#navbarNav li{
+		padding-right:30px;
+	}
+
+
+	/* Đăng nhập- đăng ký */
+	.c-login{
+		margin-top:-10px;
+
+	}
+	.c-login li{
+		float:left;
+		text-decoration: none;
+		list-style-type:none;	 
+	}
+	.c-login li a{
+		text-decoration:none; 
+	} 
+
+	/*footer*/
+	.list-ft ul li{
+		
+		list-style-type:none;
+	}
+	.list-ft ul li a{
+		text-decoration:none;
+	}
+
+	.icon-nav-l {
+		width:30px;
+		float:left;
+		text-align:center;
+	}
+
+	.img-card{
+		align-items: center;   /* ????????*/
+		display: flex;     /* ????????*/
+		height:150px;
+	}
+	.card a{
+		text-decoration:none;
+		color:#474343;
+	}
+	.card{
+		height:283px;
+	}
+	.card-body{
+		height:auto;
+		text-align:bottom;
+	}
+
+
+	.container-products{
+		width:90%;
+		margin:0 auto;
+	}
+	.container-products li{
+		width:20%;
+		float:left;
+		list-style-type:none;
+	}
+
+
+
+	/*nút checked status*/
+	.switch {
+		position: relative;
+		display: inline-block;
+		width: 32px;
+		height: 17px;
+		margin-top:10px;
+
+	}
+
+	.switch input { 
+		opacity: 0;
+		width: 0;
+		height: 0;
+	}
+
+	.slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ccc;
+		-webkit-transition: .4s;
+		transition: .4s;
+	}
+
+	.slider:before {
+		position: absolute;
+		content: "";
+		height: 13px;
+		width: 12px;
+		left: 1px;
+
+		bottom:2px;
+		background-color: white;
+		-webkit-transition: .4s;
+		transition: .4s;
+	}
+
+	input:checked + .slider {
+		background-color: #00ff40;
+	}
+
+	input:focus + .slider {
+		box-shadow: 0 0 1px #2196F3;
+	}
+
+	input:checked + .slider:before {
+		-webkit-transform: translateX(17px);
+		-ms-transform: translateX(17px);
+		transform: translateX(17px);
+	}
+
+	/* Rounded sliders */
+	.slider.round {
+		border-radius: 20px;
+	}
+
+	.slider.round:before {
+		border-radius: 50%;
+	}
+
+
+	/*PRODUCT-DETAIL*/
+
+	.img-big-wrap{
+		padding-left: 20px;
+		padding-top:20px;
+		padding-bottom: 50px
+	}
+
+	.gallery-wrap .img-big-wrap img {
+		/*height: 400px;*/
+		width: auto;
+		display: inline-block;
+		cursor: zoom-in;
+	}
+
+
+	.gallery-wrap .img-small-wrap .item-gallery {
+		width: 60px;
+		/*height: 60px;*/
+		border: 1px solid #ddd;
+		margin: 7px 2px;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.gallery-wrap .img-small-wrap {
+		text-align: center;
+	}
+	.gallery-wrap .img-small-wrap img {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: cover;
+		border-radius: 4px;
+		cursor: zoom-in;
+	}
